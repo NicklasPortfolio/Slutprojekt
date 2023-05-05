@@ -6,6 +6,7 @@ body {
 
 body {
   background-color: black;
+  height: 100vh;
   margin: 0;
   padding: 0;
   display: block;
@@ -53,7 +54,7 @@ header {
 
 .textContainer * {
   color: white;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .textContainer h1 {
@@ -70,11 +71,15 @@ footer {
   background-color: #333333;
 }
 
+footer div {
+  margin-left: 5px;
+  margin-top: 30px;
+}
+
 footer a {
   text-decoration: none;
   text-align: center;
   color: white;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-weight: bold;
-  
 }
