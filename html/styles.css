@@ -1,10 +1,13 @@
 @font-face {
-  font-family: RuinStyle;
-  src: url(fonts/RuinStyle.otf)
+  font-family: Bembo;
+  src: url(fonts/BemboStd.otf)
 }
 
+/* For all pages */
+
 * body {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Bembo;
+  color: white;
 }
 
 html,
@@ -23,7 +26,7 @@ body {
 }
 
 header {
-  width: 280px;
+  width: 254px;
   height: 50px;
   border: 2px solid white;
   background-color: black;
@@ -53,26 +56,6 @@ header {
   background-color: #222222;
 }
 
-.crest {
-  position: static;
-}
-
-.textContainer {
-  margin: 50px auto;
-  padding: 10px;
-  width: 75%;
-  border: 3px solid white;
-}
-
-.textContainer * {
-  color: white;
-}
-
-.textContainer h1 {
-  font-size: 24px;
-  font-style: none;
-}
-
 footer {
   border-top: 2px solid white;
   position: fixed;
@@ -93,3 +76,39 @@ footer a {
   color: white;
   font-weight: bold;
 }
+
+/* For the main page */
+
+
+.home h2 {
+  position: relative;
+  width: fit-content;
+  left: 1rem;
+  padding: 5px;
+  border: 2px solid white;
+}
+
+.home img {
+  width: 1000px;
+  height: 250px;
+}
+
+/* For the about page */
+
+.textContainer {
+  margin: 50px auto;
+  padding: 10px;
+  width: 75%;
+  border: 3px solid white;
+}
+
+.textContainer * {
+  color: white;
+}
+
+.textContainer h1 {
+  font-size: 24px;
+  font-style: none;
+}
+
+/* For the contact page */
