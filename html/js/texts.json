@@ -1,0 +1,24 @@
+{
+    "conspiracies":[
+       {
+          "title":"The Secret Society of Flat-Earthers",
+          "description":"The conspiracy theory claims that there exists a secret society of individuals who know the truth about the shape of the Earth. According to the theory, this society is made up of wealthy and influential people who are hiding the fact that the Earth is flat from the rest of the world. They are alleged to be using their power and resources to suppress the truth and to discredit those who try to reveal it. The theory states that members of this secret society have infiltrated governments, scientific institutions, and media outlets to ensure that the true nature of the Earth is never revealed to the public.",
+          "imgname":"img/flat.png"
+       },
+       {
+          "title":"The Time Travelling Elite",
+          "description":"The conspiracy theory suggests that a small group of wealthy and powerful individuals have discovered the secret to time travel. The theory alleges that these individuals use their time travel abilities to manipulate historical events to their advantage. The conspiracy claims that this group has been responsible for major historical events such as wars, assassinations, and economic crises. According to the theory, they do this to maintain their power and control over society.",
+          "imgname":"img/gman.png"
+       },
+       {
+          "title":"The Alien Government Conspiracy",
+          "description":"This theory suggests that the world's governments have been in contact with extraterrestrial beings for decades, and have been working with them to advance their technology and scientific knowledge. The conspiracy claims that these aliens are secretly influencing world events, and that they have infiltrated the highest levels of government and industry. The theory suggests that the purpose of this secret alliance is to establish a global government that is controlled by the aliens.",
+          "imgname":"img/dollar.png"
+       },
+       {
+          "title":"The Mandela Effect Cover-Up",
+          "description":"The Mandela Effect is a phenomenon where a large group of people remember an event or fact differently than how it actually occurred. The conspiracy theory claims that the Mandela Effect is not a natural occurrence, but rather a deliberate manipulation of reality by a powerful group or organization. The theory alleges that this group is altering the timeline of history to suit their agenda, and that they are using the Mandela Effect to cover up their actions. The conspiracy theory suggests that this group has the power to change reality at will, and that they are using this power to manipulate society.",
+          "imgname":"img/mandela.png"
+       }
+    ]
+ }

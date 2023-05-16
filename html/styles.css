@@ -1,6 +1,6 @@
 @font-face {
   font-family: Bembo;
-  src: url(fonts/BemboStd.otf)
+  src: url(fonts/BemboStd.otf);
 }
 
 /* For all pages */
@@ -79,18 +79,50 @@ footer a {
 
 /* For the main page */
 
+.home {
+  overflow: hidden;
+}
+
+.home div {
+  display: block;
+  float: left;
+  margin: 25px;
+  margin-right: 0;
+  padding: 0;
+}
 
 .home h2 {
-  position: relative;
-  width: fit-content;
-  left: 1rem;
+  margin: 0;
   padding: 5px;
-  border: 2px solid white;
+  border: 2px solid gold;
+  background-color: #333333;
+  text-align: center;
+  max-width: 100%;
 }
 
 .home img {
-  width: 1000px;
-  height: 250px;
+  margin-top: 5px;
+  width: 700px;
+  height: auto;
+  border: 2px solid gold;
+  float: left;
+}
+
+.home .p-container {
+  background-color: #333333;
+  border: 2px solid gold;
+  float: left;
+  width: calc(50% - 500px);
+  height: auto;
+  margin-left: 5px;
+  padding: 10px;
+}
+
+.home p {
+  margin: 10px 0;
+  text-align: left;
+  line-height: 23px;
+  font-size: 20px;
 }
 
 /* For the about page */
@@ -104,6 +136,7 @@ footer a {
 
 .textContainer * {
   color: white;
+  margin: 0;
 }
 
 .textContainer h1 {
@@ -112,3 +145,4 @@ footer a {
 }
 
 /* For the contact page */
+
