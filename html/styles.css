@@ -5,31 +5,37 @@
 
 /* For all pages */
 
-* body {
-  font-family: Bembo;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Bembo, sans-serif;
   color: white;
-}
-
-html,
-body {
-  margin: 0;
-  padding: 0;
-}
-
-body {
   background-color: black;
-  height: 100vh;
   margin: 0;
   padding: 0;
-  display: block;
+  display: flex;
   flex-direction: column;
+  min-height: 100vh;
+  padding-bottom: 50px;
+
+  background-image: url(img/conspiracy.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 header {
-  width: 254px;
-  height: 50px;
-  border: 2px solid white;
+  position: fixed;
   background-color: black;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-bottom: 20px;
 }
 
 .navbox ul {
@@ -38,6 +44,7 @@ header {
   overflow: hidden;
   background-color: #333333;
   list-style-type: none;
+  border: 2px solid white;
 }
 
 .navbox li {
@@ -67,7 +74,7 @@ footer {
 
 footer div {
   margin-left: 5px;
-  margin-top: 30px;
+  margin-top: 25px;
 }
 
 footer a {
@@ -80,15 +87,18 @@ footer a {
 /* For the main page */
 
 .home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
   overflow: hidden;
 }
 
 .home div {
-  display: block;
-  float: left;
+  width: 100%;
   margin: 25px;
-  margin-right: 0;
   padding: 0;
+  margin-top: 75px;
 }
 
 .home h2 {
@@ -101,20 +111,16 @@ footer a {
 }
 
 .home img {
-  margin-top: 5px;
-  width: 700px;
+  width: 100%;
   height: auto;
   border: 2px solid gold;
-  float: left;
 }
 
 .home .p-container {
   background-color: #333333;
   border: 2px solid gold;
-  float: left;
-  width: calc(50% - 500px);
-  height: auto;
-  margin-left: 5px;
+  width: 100%;
+  margin: 5px 5px;
   padding: 10px;
 }
 
@@ -131,7 +137,10 @@ footer a {
   margin: 50px auto;
   padding: 10px;
   width: 75%;
-  border: 3px solid white;
+  max-width: 900px;
+  border: 3px solid gold;
+  background-color: #333;
+  margin-top: 75px;
 }
 
 .textContainer * {
@@ -149,12 +158,12 @@ footer a {
 .contact {
   background-color: #333;
   border: 2px solid white;
-  margin: 6px;
-  margin-left: 0px;
+  margin: 5px 5px;
   padding-left: 6px;
   padding-right: 6px;
   border-radius: 8px;
   width: fit-content;
+  margin-top: 75px;
 }
 
 .formcontainer {
@@ -162,6 +171,7 @@ footer a {
   background-color: #333;
   padding: 20px;
   border: 2px solid white;
+  margin: 5px 5px;
 }
 
 input[type="text"],
@@ -189,4 +199,28 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: #444;
+}
+
+/* Responsive Styles */
+
+@media only screen and (min-width: 768px) {
+
+  .home div {
+    width: calc(50% - 50px);
+  }
+
+  .textContainer {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+
+  .home div {
+    width: calc(33.33% - 50px);
+  }
+
+  .textContainer {
+    width: 50%;
+  }
 }
