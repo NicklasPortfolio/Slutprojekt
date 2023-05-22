@@ -103,6 +103,7 @@ footer a {
 
 .home h2 {
   margin: 0;
+  margin-bottom: 4px;
   padding: 5px;
   border: 2px solid gold;
   background-color: #333333;
@@ -113,19 +114,20 @@ footer a {
 .home img {
   width: 100%;
   height: auto;
+  max-height: 600px;
   border: 2px solid gold;
 }
 
 .home .p-container {
   background-color: #333333;
   border: 2px solid gold;
-  width: 100%;
+  width: 1500px;
   margin: 5px 5px;
   padding: 10px;
 }
 
 .home p {
-  margin: 10px 0;
+  margin: 0;
   text-align: left;
   line-height: 23px;
   font-size: 20px;
@@ -204,7 +206,6 @@ input[type="submit"]:hover {
 /* Responsive Styles */
 
 @media only screen and (min-width: 768px) {
-
   .home div {
     width: calc(50% - 50px);
   }
@@ -215,7 +216,6 @@ input[type="submit"]:hover {
 }
 
 @media only screen and (min-width: 1024px) {
-
   .home div {
     width: calc(33.33% - 50px);
   }
